@@ -34,7 +34,7 @@
             </div>
 </nav>
     </header>
-    <div class="container">
+    <div class="container-fluid">
         <main class="row mt-3">
             <div>
                 <h1 class="text-center">Academia de Galguito</h1>
@@ -52,7 +52,9 @@
                         <h5 class="card-title">Clase con Galgo</h5>
                         <p class="card-text">$30 la hora</p>
                         <p>Clase con el numero uno</p>
-                        <a href="#" class="btn btn-primary">Mas informacion</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Reservar Clase
+                        </button>
                     </div>
                 </div>
             </div>
@@ -64,7 +66,9 @@
                         <h5 class="card-title">Clase con Galgo</h5>
                         <p class="card-text">$30 la hora</p>
                         <p>Clase con el numero uno</p>
-                        <a href="#" class="btn btn-primary">Mas informacion</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Reservar Clase
+                        </button>
                     </div>
                 </div>
             </div>
@@ -75,7 +79,9 @@
                         <h5 class="card-title">Clase con Galgo</h5>
                         <p class="card-text">$30 la hora</p>
                         <p>Clase con el numero uno</p>
-                        <a href="#" class="btn btn-primary">Mas informacion</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Reservar Clase
+                        </button>
                     </div>
                 </div>
             </div>
@@ -86,7 +92,9 @@
                         <h5 class="card-title">Clase con Galgo</h5>
                         <p class="card-text">$30 la hora</p>
                         <p>Clase con el numero uno</p>
-                        <a href="#" class="btn btn-primary">Mas informacion</a>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Reservar Clase
+                        </button>
                     </div>
                 </div>
             </div>
@@ -142,11 +150,29 @@
                 </div>
             </form>
         </section>
-        <footer class="row">
-            
+        <footer class="row bg-dark text-white text-center mt-4">
+            <p>Academia Galguito</p>
+            <p>2026</p>
         </footer>
     </div>
 
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Clase de Galguito</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>$30 por hora</p>
+                    <p>Profe Galguito</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary">Reservar Clase</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
